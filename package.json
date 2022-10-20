@@ -1,18 +1,18 @@
 {
-  "name": "Filmoteka_by_ITLegend",
+  "name": "Filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Musiyan98.github.io/filmoteka_by_ITLegend",
+  "homepage": "https://github.com/IhorRykun/Filmoteka.git",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /filmoteka_by_ITLegend/"
+    "build": "parcel build src/*.html --public-url /Filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Musiyan98/filmoteka_by_ITLegend.git"
+    "url": "git+https://github.com/IhorRykun/Filmoteka.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Ihor Rykun <IhorRykun@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Musiyan98/filmoteka_by_ITLegend/issues"
