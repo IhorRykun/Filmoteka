@@ -1,4 +1,5 @@
 const galleryItemlist = document.querySelector('.gallery__item');
+const linkArow = document.querySelector('.link__arrow');
 const options = {
   once: true,
 };
@@ -39,3 +40,7 @@ function windowLoad() {
   }
   digitsCountersInit();
 }
+
+window.addEventListener('scroll', () => {
+  linkArow.classList.remove('hide');
+});
