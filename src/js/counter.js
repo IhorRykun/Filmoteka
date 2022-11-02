@@ -42,5 +42,8 @@ function windowLoad() {
 }
 
 window.addEventListener('scroll', () => {
+  linkArow.classList.add('hide');
+});
+window.addEventListener('mousemove', () => {
   linkArow.classList.remove('hide');
 });
